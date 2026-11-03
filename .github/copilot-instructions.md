@@ -98,3 +98,22 @@ verifies the linked writer comment includes exact text `Accept risk SEC-xxx`
 for the finding's actual ID. Do not self-accept risk or claim completion with
 unresolved blockers.
 Human review, marking drafts ready, and merging remain platform responsibilities.
+
+
+<!-- github-knowledge-base-start -->
+## Knowledge Base
+
+### Purpose
+
+This repository uses the Knowledge Base at [https://github.com/sidlabs-platform/agentic-sdlc-ltm-champions](https://github.com/sidlabs-platform/agentic-sdlc-ltm-champions) on branch `main`.
+
+### Required behavior
+
+1. Before changing code, read `docs/index.md` from that branch.
+2. Use the index to open only the knowledge files relevant to the task.
+3. If the index is unavailable, stop and report that the Knowledge Base could not be loaded.
+
+### Source of truth
+
+Generated knowledge tracks the code. When the knowledge and code disagree, trust the code.
+<!-- github-knowledge-base-end -->
